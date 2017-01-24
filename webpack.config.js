@@ -6,7 +6,8 @@ module.exports = {
         main: './public/views/client.js'
     },
     output: {
-        filename: './public/dist/scripts/[name].js'
+        filename: './public/dist/scripts/[name].js',
+        publicPath: '/'
     },
     module: {
         loaders: [
@@ -19,6 +20,15 @@ module.exports = {
                 test: /\.scss$/,
                 loader: ExtractTextPlugin.extract('css!sass')
             }
+            ,
+            {
+                test: /\.jpg/,
+                loader: 'file?name=[name].[ext]'
+            },
+            {
+                test: /\.png/,
+                loader: 'file?name=[name].[ext]'
+            },
         ]
     },
     plugins: [

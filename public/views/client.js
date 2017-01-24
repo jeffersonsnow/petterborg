@@ -4,7 +4,7 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 
 import HomeView from './Home/HomeView.js';
 import AboutView from './About/AboutView.js';
-import ProductsView from './Products/ProductsView.js'
+import ProductsView from './Products/ProductsView.js';
 
 import Reset from '../styles/Reset.scss';
 import Master from '../styles/Master.scss';
