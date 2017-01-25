@@ -7,7 +7,7 @@ module.exports = {
     },
     output: {
         filename: './public/dist/scripts/[name].js',
-        publicPath: '/'
+        publicPath: '/assets/'
     },
     module: {
         loaders: [
@@ -17,23 +17,28 @@ module.exports = {
                 loader: 'babel',
             },
             {
-                test: /\.scss$/,
+                test: /\.scss/,
                 loader: ExtractTextPlugin.extract('css!sass')
-            }
-            ,
-            {
-                test: /\.jpg/,
-                loader: 'file?name=[name].[ext]'
             },
+            // {
+    //    test: /\.scss$/,
+    //    loader: 'style-loader!css-loader!sass-loader'
+    //  },
+            // {test:/\.(jpg|png)$/,loader:"file-loader"},
             {
-                test: /\.png/,
+                test: /\.(jpg|png|gif|svg/)$/,
                 loader: 'file?name=[name].[ext]'
             },
         ]
     },
-    plugins: [
-        new ExtractTextPlugin('public/dist/styles/main.css', {
-            allChunks: true
-        })
-    ]
+
+
+    // plugins: [
+    //     new ExtractTextPlugin('public/dist/styles/main.css', {
+    //         allChunks: true
+    //     })
+    // ]
 };
+resolve: {
+     extensions: ["", ".js",]
+ }

@@ -6,8 +6,11 @@ import HomeView from './Home/HomeView.js';
 import AboutView from './About/AboutView.js';
 import ProductsView from './Products/ProductsView.js';
 
+
 import Reset from '../styles/Reset.scss';
 import Master from '../styles/Master.scss';
+import NavStyle from '../styles/Nav.scss';
+
 
 class App extends React.Component{
   render(){

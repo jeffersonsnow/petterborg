@@ -1,29 +1,9 @@
 
-.nav {
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-between;
-width: 100vw;
-height: 10vh;
-padding: 26px 40px;
-background-color: #F7931D;
-color: white;
-font-family: 'Dancing Script', cursive;
-font-size: 20px;
-font-weight: bold;
-// background-image: url('./beekeeper.png');
-}
-a:link {
-    text-decoration: none;
-}
-a:visited {
-    text-decoration: none;
-    color: white;
-}
-.homeView{
+.homeview{
   width: 100vw;
   height: 100vh;
+
+
 }
 .homeHeader{
   width: 100vw;
@@ -31,7 +11,6 @@ a:visited {
   text-align: center;
   color: white;
   // color: black;
-  // background-image: url('http://www.publicdomainpictures.net/pictures/10000/velka/honeycomb.jpg');
   background: black;
   padding: 25px 20px;
   font-size: 20px;
@@ -45,6 +24,8 @@ a:visited {
   width: 100vw;
   height: 35vh;
   overflow: hidden;
+  // background-color: grey;
+  background-image: url('../dist/assets/beekeeper.png');
 }
 .homeSubHeaderPic{
   width: 100vw;
