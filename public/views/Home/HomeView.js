@@ -14,7 +14,7 @@ render(){
       <Nav/>
       <div className="homeHeader">Locally Owned and Harvested</div>
       <div className="homeSubHeader">
-      
+      Petterborg Apiaries
       </div>
       <Footer/>
     </div>

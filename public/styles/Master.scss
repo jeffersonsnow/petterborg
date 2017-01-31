@@ -1,42 +1,8 @@
 
-.homeview{
-  width: 100vw;
-  height: 100vh;
+$beeshade: #F7931D;
 
-
-}
-.homeHeader{
-  width: 100vw;
-  height: 10vh;
-  text-align: center;
-  color: white;
-  // color: black;
-  background: black;
-  padding: 25px 20px;
-  font-size: 20px;
-  // font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  // font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  font-family: 'Dancing Script', cursive;
-
-}
-.homeSubHeader{
-  width: 100vw;
-  height: 35vh;
-  overflow: hidden;
-  // background-color: grey;
-  background-image: url('../dist/assets/beekeeper.png');
-  background-size: cover;
-}
-.homeSubHeaderPic{
-  width: 100vw;
-  position: fixed;
-  // top: 1;
-  // height: 100vw;
-  // height: 30vh;
-}
 .footer{
-  height: 10vh;
+  height: 5vh;
   width: 100vw;
   background-color: #F7931D;
   z-index: 12;

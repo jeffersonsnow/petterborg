@@ -1,0 +1,53 @@
+@import 'master';
+
+.aboutView {
+  background-color: black;
+  height: 2000px;
+  // height: 100vh;
+  // padding: 20px;
+}
+
+.aboutContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 15vw;
+  margin-top: 5vh;
+  flex-wrap: wrap;
+}
+
+.jarPic{
+  height: 717px;
+  width: 536px;
+  background-image: url('../dist/assets/honeyjar.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  margin-right: 10px;
+}
+.aboutContent::-webkit-scrollbar {
+        display: none;
+        width: 0 !important;
+    }
+.aboutContent{
+  // height: 800px;
+  // width: 725px;
+  // color: white;
+  line-height: 200%;
+  font-size: 20px;
+  margin-top: 19vh;
+  // margin-left: 3vw;
+
+  align-items: center;
+  // width: 700px;
+  width: 40vw;
+  height: 400px;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  color: white;
+  // position: relative;
+  top: 0;
+}
+.filler{
+  width: 10vw;
+}

@@ -1,10 +1,48 @@
-@import'master';
+@import 'master';
 
+.homeview{
+height: 970px;
+width: 100vw;
+background-image: url('../dist/assets/beeandflower.jpg');
+background-position: 0 75px;
+background-size: cover;
+background-repeat: no-repeat;
+-webkit-background-size: 100% auto;
+
+-moz-background-size: 100% auto;
+
+-ms-background-size: 100% auto;
+
+background-size: 100% auto;
+}
 .homeHeader{
+  margin-top: 5vw;
   width: 100vw;
-  height: 30vh;
+  height: 10vh;
+  text-align: center;
+  color: white;
+  background: black;
+  // opacity: .59;
+  padding: 25px 20px;
+  font-size: 40px;
+  // font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  // font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Dancing Script', cursive;
+
 }
-.homeHeaderPic{
-  width: 100vw;
-  height: 30vh;
-}
+// .homeSubHeader{
+//   width: 100vw;
+//   height: 35vh;
+//   overflow: hidden;
+//   // background-color: grey;
+//   // background-image: url('../dist/assets/beekeeper.png');
+//   background-size: cover;
+// }
+// .homeSubHeaderPic{
+//   width: 100vw;
+//   position: fixed;
+//   // top: 1;
+//   // height: 100vw;
+//   // height: 30vh;
+// }

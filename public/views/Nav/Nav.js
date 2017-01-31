@@ -10,7 +10,7 @@ export default class Nav extends React.Component{
    return(
      <header>
        <div className="nav">
-         <div> logo</div>
+         <div className="logo"> Petterborg Apiaries </div>
          <div>
          <Link to='/'>
           Home
@@ -23,7 +23,7 @@ export default class Nav extends React.Component{
         </div>
         <div>
           <Link to="/products">
-         Products
+         Order
           </Link>
        </div>
        </div>
